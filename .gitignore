@@ -38,3 +38,5 @@ captures/
 /.idea/kotlinc.xml
 /.idea/misc.xml
 /.idea/vcs.xml
+
+.DS_Store
