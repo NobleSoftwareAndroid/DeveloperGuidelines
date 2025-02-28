@@ -22,7 +22,7 @@ covering everything from app functionality and user privacy to store listing and
     * [Architecture](modules/architecture.md)
     * [Best Practices](modules/best_practices.md)
     * [Nice to Have](modules/nice_to_have.md)
-    * [Things to Avoid](modules/nice_to_have.md)
+    * [Things to Avoid](modules/things_to_avoid.md)
 
 ### Standard Operating Procedure (SOP)
 
@@ -35,6 +35,5 @@ here : [Standard Operating Procedure (SOP)](https://docs.google.com/document/d/1
 ---
 Copyright © 2025 Visi Prima Nusantara, Jakarta. All rights reserved. No part of this document may be reproduced,
 distributed, or transmitted in any form or by any means, without the prior written permission of Visi Prima Nusantara.
-
 
 
