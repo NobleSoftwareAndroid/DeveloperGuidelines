@@ -32,10 +32,8 @@ here : [Standard Operating Procedure (SOP)](https://docs.google.com/document/d/1
 
 <br>
 
-* [Best Practices](modules%2Fbest_practices.md)
-* [Android Developer Guideline](#modules/android-developer-guideline)
-* [Android Developer Guideline](#android-developer-guideline)
-* [Android Developer Guideline](#android-developer-guideline)
-* [Android Developer Guideline](#android-developer-guideline)
+---
+Copyright © 2025 Visi Prima Nusantara, Jakarta. All rights reserved. No part of this document may be reproduced,
+distributed, or transmitted in any form or by any means, without the prior written permission of Visi Prima Nusantara.
 
 
