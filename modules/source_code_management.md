@@ -1,4 +1,4 @@
-## Source Code Management
+# Source Code Management
 
 Effective source code management is crucial for collaborative Android development. We utilize Git as our Version Control System (VCS), accessible through command-line or GUI tools like GitHub Desktop.
 
