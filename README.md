@@ -22,7 +22,7 @@ covering everything from app functionality and user privacy to store listing and
     * [Architecture](modules/architecture.md)
     * [Best Practices](modules/best_practices.md)
     * [Nice to Have](modules/nice_to_have.md)
-    * [Things to Avoid](modules/nice_to_have.md)
+    * [Things to Avoid](modules/things_to_avoid.md)
 
 ### Standard Operating Procedure (SOP)
 

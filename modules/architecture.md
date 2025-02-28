@@ -4,8 +4,8 @@
 
 This document outlines a scalable Android app architecture combining **MVVM**, **Clean Architecture**, and **SOLID principles**, tailored for modularity, testability, and maintainability.
 
-- [Modularization Strategy](#Modularization Strategy for Android Architecture)
-- [Architecture Overview](#Architecture Overview)
+- [Modularization Strategy](#modularization-strategy-for-android-architecture)
+- [Architecture Overview](#architecture-overview)
 
 ---
 
