@@ -45,35 +45,53 @@ Follow these foundational practices to ensure clean, maintainable, and scalable 
    ```
 
 ## 2. Code Quality
-
 Consistent code style improves readability and maintainability. Follow these guidelines:
 
-* Use descriptive naming conventions for variables, functions, and classes.
-* Apply Android-specific style guidelines.
-* Follow camelCase for variables and functions, and PascalCase for classes and interfaces.
-* Prefix boolean variables with `is` or `has`.
-* Use consistent indentation and limit line length.
-* Add clear and concise comments.
-* Utilize lint and code analysis tools, and integrate them into CI/CD pipelines.
+**Advantage of Implementation of Coding Standards**
+* Offers uniformity to the code created by different engineers.
+* Enables the creation of reusable code.
+* Makes it easier to detect errors.
+* Make code simpler, more readable, and easier to maintain.
+* Boost programmer efficiency and generate faster results.
+---
+**Coding standards** are a set of rules, guidelines, and best practices that developers follow when writing code. They ensure consistency, readability, maintainability, and collaboration within a development team.
 
+**Key Components of Android Coding Standards**
+Here's a breakdown of essential elements for your Android coding standards:
 
-Naming Conventions
-* **Classes**: Suffix with purpose (e.g., `LoginFragment`, `UserRepositoryImpl`).
-* **Variables**: Use descriptive names (e.g., `isUserLoggedIn` instead of flag).
+**Naming Conventions**
+* **Package Names**: Use reverse domain names (e.g., `com.example.app`).
+* **Class Names**: Use UpperCamelCase (e.g., `MainActivity`).
+* **Interface Names**: Use UpperCamelCase starting with "I" (e.g., `IOnClickListener`).
+* **Method Names**: Use lowerCamelCase (e.g., `onCreate`).
+* **Variable Names**: Use lowerCamelCase, descriptive names (e.g., `userName`).
+* **Constants**: Use UPPERCASE_WITH_UNDERSCORES (e.g., `MAX_VALUE`).
 * **Resources**: Prefix for clarity (e.g., `img_imagename`, `ic_iconname`).
 
-Code Style
-* Follow Kotlin Style Guide.
-* Use `ktlint` or `Detekt` for automated linting.
-* Format code with Android Studio’s built-in formatter.
+## 3. Code Formatting
+   Indentation: Use 4 spaces for indentation.
+   Line Length: Keep lines to a maximum of 80-100 characters.
+   Braces: Use consistent brace placement (e.g., K&R style, Allman style).
+   Whitespace: Use consistent spacing around operators and keywords.
 
-Documentation
-* Document public APIs with KDoc.
-* Use `// TODO` or `// FIXME` sparingly and resolve them promptly.
-* Avoid redundant comments; write self-explanatory code.
+## 4. Code Comments
+   Purpose: Explain the purpose of code sections, especially complex logic.
+   Style: Use clear and concise language.
+   Updating: Keep comments up-to-date with code changes.
+
+## 5. Code Structure
+   Package Organization: Use logical package structures based on functionality.
+   Class Design: Follow SOLID principles (Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion).
+   Method Length: Keep methods concise and focused on a single task.
+   Error Handling: Use try-catch blocks appropriately and provide informative error messages.
+
+## 6. Code Optimization
+   Performance: Consider performance implications when writing code.
+   Memory Management: Avoid memory leaks and optimize memory usage.
+   Battery Usage: Be mindful of battery consumption, especially for background tasks.
 
 
-## 3. Security
+## 7. Security
 
 Android apps must protect user data and prevent vulnerabilities.
 
@@ -87,7 +105,7 @@ Android apps must protect user data and prevent vulnerabilities.
 * Validate all user-provided input.
 * Avoid hardcoding sensitive information.
 
-## 4. Performance & Optimization
+## 8. Performance & Optimization
 * Background Threading: Use coroutines (`Dispatchers.IO`) for network/database operations.
 * Memory Management:
   * Avoid leaking contexts (use `viewModelScope` in `ViewModels`).
