@@ -17,9 +17,9 @@ Effective source code management is crucial for collaborative Android developmen
         * Example: `hafizh_test_bank_enhancement`.
         * This format ensures consistency and easy identification of the branch's owner and purpose.
 
-### 2. Commit Message
+### 2. Commit
 
-* **Format:**
+* **Commit Message:**
     * Start the commit message title with the corresponding JIRA ticket code, followed by a descriptive title.
     * Template: `emoji [TICKET-123] What's inside the PR`
     * Example: `:sparkles: [FIZ-123] Layouting Login Page`
@@ -28,11 +28,8 @@ Effective source code management is crucial for collaborative Android developmen
 
 ### 3. Pull Requests (PRs)
 
-* **Purpose:**
-    * PRs are used to propose and merge changes from personal branches into the development branch.
-####
 * **PR Message:**
-    * The PR title should follow the same conventions as commit messages.
+    * The PR title can follow the same conventions as commit messages.
     * The PR description should provide detailed information about the changes, including:
         * The purpose of the changes.
         * Any relevant context.
