@@ -8,7 +8,7 @@ building blocks" – the individual pieces of code – to make sure they're doin
 double-checking that each part of the engine is running smoothly. By combining these two approaches, we can create
 Android apps that are both reliable and a pleasure to use.
 
-### Manual Testing
+### 1. Manual Testing
 
 When it comes to manually testing your Android app, you'll want to use a variety of devices to ensure it works well for
 everyone. Here's a breakdown of the two main options:
@@ -40,7 +40,7 @@ everyone. Here's a breakdown of the two main options:
     * **Considerations:** Testing on a variety of real devices can be time-consuming and requires access to a range of
       hardware.
 
-### Unit Testing
+### 2. Unit Testing
 
 Unit testing is a fundamental practice in Android development that focuses on verifying the functionality of individual components of your code in isolation. It helps ensure that each piece of your application works as intended, leading to a more stable and reliable app.
 
@@ -79,7 +79,7 @@ Unit testing is a fundamental practice in Android development that focuses on ve
 * **Truth:** An assertion library that provides more readable and expressive assertions.
 * **Espresso:** A UI testing framework that allows you to write automated UI tests for Android applications, ensuring that user interactions behave as expected.
 
-
+---
 ## Additional Notes for Android Testing
 
 Beyond the core unit and manual testing, several critical considerations ensure your Android application's quality and longevity.
