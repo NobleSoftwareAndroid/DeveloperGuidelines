@@ -33,7 +33,7 @@ here : [Standard Operating Procedure (SOP)](https://docs.google.com/document/d/1
 <br>
 
 ---
-Copyright © 2025 Visi Prima Nusantara, Bandar Lampung. All rights reserved. No part of this document may be reproduced,
+Copyright © 2025 Visi Prima Nusantara, Jakarta. All rights reserved. No part of this document may be reproduced,
 distributed, or transmitted in any form or by any means, without the prior written permission of Visi Prima Nusantara.
 
 
